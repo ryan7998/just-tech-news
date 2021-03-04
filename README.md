@@ -98,3 +98,4 @@ Back end developed for just tech news with the following functions:
     Method: DELETE
 
 
+Link to the site: https://ryan7998-just-tech-news.herokuapp.com/api/posts
