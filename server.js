@@ -3,7 +3,12 @@ const routes = require('./controllers');
 const sequelize = require('./config/connection');
 const path = require('path');
 const exphbs = require('express-handlebars');
-const hbs = exphbs.create({});
+const helpers = require('./utils/helpers');
+// before helpers were imported/created
+// const hbs = exphbs.create({});
+// after helpers created/imported:
+const hbs = exphbs.create({ helpers });
+
 const session = require('express-session');
 const sequelizeStore = require('connect-session-sequelize')(session.Store);
 
