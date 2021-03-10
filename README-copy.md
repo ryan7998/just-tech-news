@@ -1,22 +1,9 @@
 # just-tech-news
 
-CMS developed for just tech news with the following functions
+Back end developed for just tech news with the following functions:
 
 ## Screenshot:
 ![](src/screenshot.png)
-
-## FRON END:
-
-- Users can create new accout / login with existing credentials.
-
-- In Dashboard, users can manage the list of posts he created or create a new post.
-
-- User can comment on his posts or others posts.
-
-- User can upvote posts.
-
-
-## BACKEND:
 
 ### Users:
 
